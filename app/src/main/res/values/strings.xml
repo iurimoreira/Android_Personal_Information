@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Informações Pessoais</string>
+
+    <string name="navigation_drawer_open">Abrir navegação</string>
+    <string name="navigation_drawer_close">Fechar navegação</string>
+
+    <string name="action_settings">Configurações</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
