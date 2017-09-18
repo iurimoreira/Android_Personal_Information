@@ -5,9 +5,34 @@
     tools:context="moreira.iuri.assessment_interfaces_android.InfoPessoais">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Iuri Moreira" />
+        android:orientation="vertical">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iuri Moreira"
+            android:textSize="24sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 anos"
+            android:textSize="24sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rio de Janeiro"
+            android:textSize="24sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
 </FrameLayout>

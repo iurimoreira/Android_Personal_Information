@@ -8,4 +8,8 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nome">Iuri Moreira</string>
+    <string name="idade">30 anos</string>
+    <string name="pais">Brasil</string>
+    <string name="cidade">Rio de Janeiro</string>
 </resources>

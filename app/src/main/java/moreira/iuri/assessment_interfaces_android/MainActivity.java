@@ -86,11 +86,14 @@ public class MainActivity extends AppCompatActivity
             InfoPessoais infoPessoais = new InfoPessoais();
             manager.beginTransaction().replace(R.id.relative_fragment_layout, infoPessoais).commit();
         } else if (id == R.id.nav_formacao) {
-
+            Formacao formacao = new Formacao();
+            manager.beginTransaction().replace(R.id.relative_fragment_layout, formacao).commit();
         } else if (id == R.id.nav_cursos) {
-
+            Cursos cursos = new Cursos();
+            manager.beginTransaction().replace(R.id.relative_fragment_layout, cursos).commit();
         } else if (id == R.id.nav_publicacoes) {
-
+            Publicacoes publicacoes = new Publicacoes();
+            manager.beginTransaction().replace(R.id.relative_fragment_layout, publicacoes).commit();
         } else if (id == R.id.nav_profissional) {
             Profissional profissional = new Profissional();
             manager.beginTransaction().replace(R.id.relative_fragment_layout, profissional).commit();
